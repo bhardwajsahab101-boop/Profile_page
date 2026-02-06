@@ -1,0 +1,70 @@
+.About_page_container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  padding: 8px 16px;
+  margin: 8px 16px;
+  margin-top: 10px;
+}
+.About_page_profile_image {
+  /* align-items: center; */
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.About_page_main_heading {
+  font-size: 2rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* .About_page_main_paragraph ul {
+    /* list-style: no   ; */
+ /* .About_page_main_paragraph {
+  font: 1rem;
+} */
+/* .About_page_text_container{
+
+} */
+
+@media screen and (max-width: 767px) {
+  .About_page_container {
+    grid-template-columns: 1fr;
+    padding: 8px;
+    margin: 8px;
+    margin-top: 10px;
+  }
+  .About_page_main_heading_image_caintainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .About_page_profile_image {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+  }
+  .About_page_main_heading {
+    font-size: 1.5rem; /* Slightly smaller for mobile */
+    text-align: center;
+  }
+  .About_page_main_paragraph {
+    font-size: 1.25rem;
+    /* margin: 8px;  */
+    /* padding: 8px 16px; */
+    text-align: left;
+  }
+}
+
+/* .About_pages_Bottom_cards{
+
+
+} */
+.About_page_leadership_heading {
+  font-size: 2rem;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
